@@ -17,10 +17,13 @@ https://www.solaredge.com/contact/qa_automation_test
 Using [IntelliJ IDEA Community](https://www.jetbrains.com/idea/) version.
 
 ## Programming Language
-I'm using [Java SE](http://www.oracle.com/technetwork/java/javase/downloads/index.html) version jdk1.8.0_111 and it works very well.
+Java version jdk1.8.0_111
 
 ## Instructions to run
-Clone repository under user home directory.
-Ensure webdriver for chrome is under 'solaredge/src/main/resources/chromedriver/windows'
-Currently only chrome webdriver is enabled.
-Ensure test run is done using file 'regressions_testng.xml'
+* Clone repository under user home directory. Ensure webdriver for chrome is under 'solaredge/src/main/resources/chromedriver/windows'
+* Currently only chrome webdriver is enabled
+* Ensure test run is done using file 'regressions_testng.xml'
+
+
+.
+
