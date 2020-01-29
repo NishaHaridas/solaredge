@@ -24,6 +24,7 @@ Java version jdk1.8.0_111
 * Currently only chrome webdriver is enabled
 * Ensure test run is done using file 'regressions_testng.xml'
 
-
+## Instructions to run cucumber tests
+* Ensure test run is done using file 'RunCucumberTest'
 .
 
