@@ -74,10 +74,10 @@ public class QaAutomationTestPage extends Page {
         messageField.sendKeys(message);
     }
 
-    public void selectCountry() throws InterruptedException {
+    public void selectCountry(String countryName) throws InterruptedException {
         selectCountry.click();
         Select drpCountry = new Select(driver.findElement(By.xpath("//select[@id='edit-field-client-address-0-address-country-code--2']")));
-        drpCountry.selectByVisibleText("United States");
+        drpCountry.selectByVisibleText(countryName);
         Thread.sleep(2000);
      }
 
@@ -106,11 +106,11 @@ public class QaAutomationTestPage extends Page {
         cityField.sendKeys(city);
     }
 
-    public void selectState() throws InterruptedException {
+    public void selectState(String state) throws InterruptedException {
         selectState.click();
         Select drpCountry = new Select(driver.findElement(By.xpath("//select[@data-drupal-selector= 'edit-field-client-address-0-address-administrative-area']")));
         Thread.sleep(2000);
-        drpCountry.selectByVisibleText("New York");
+        drpCountry.selectByVisibleText(state);
     }
 
     public void setZipCodeField(String zipcode) {

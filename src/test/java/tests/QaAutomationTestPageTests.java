@@ -28,13 +28,13 @@ public class QaAutomationTestPageTests extends TestHelper {
         qaAutomationTestPage.setYourEmailAddressField("testuser@gmail.com");
         qaAutomationTestPage.setSubjectField("QA Automation Test");
         qaAutomationTestPage.setMessageField("A sample QA Automation Test");
-        qaAutomationTestPage.selectCountry();
+        qaAutomationTestPage.selectCountry("United States");
         qaAutomationTestPage.setFirstNameField("test");
         qaAutomationTestPage.setLastNameField("Client");
         qaAutomationTestPage.setCompanyField("test Client company");
         qaAutomationTestPage.setStreetAddressField("test Client address");
         qaAutomationTestPage.setCityField("test City");
-        qaAutomationTestPage.selectState();
+        qaAutomationTestPage.selectState("New York");
         qaAutomationTestPage.setZipCodeField("10081");
         qaAutomationTestPage.clickOnSendMessageButton();
         qaAutomationTestPage.validateSuccesMessage();
