@@ -1,0 +1,2 @@
+# solaredge
+Assignment for solaredge. 
