@@ -14,7 +14,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <versions.cucumber>3.0.2</versions.cucumber>
-        <versions.junit>4.12</versions.junit>
+        <versions.junit>4.13.1</versions.junit>
         <versions.selenium>3.12.0</versions.selenium>
     </properties>
 
